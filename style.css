@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+nav{
+	background: crimson;
+	height: 60px;
+	width: 100%;
+}
+label.logo{
+	color: #fff;
+	font-size: 35px;
+	line-height: 60px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 60px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;	
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+img{
+	display: cover;
+	width: 100%
+}
+.paragraph{
+	font-size: 20px;
+}
+
+/*home section*/
+.top{
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+}
+span{
+	color: #ff1493;
+}
+p{
+	padding: 10px 40px;
+	font-family: 'Scheherazade';
+	word-spacing: 5px;
+}
+.foot{
+	margin: 0;
+	padding: 6px;
+	width: 100%;
+	background-color: rgb(29,29,29);
+	text-align: center;
+	color: #fff;
+}
+
+/*Project section*/
+.maj-width{
+	background: rgb(210,10,100);
+	padding: 18px 20px;
+	margin: 10px 50px;
+	text-align: center;
+}
+.box h6{
+	color: #fff;
+	font-size: 20px;
+}
+.maj-width p{
+	color: #fff;
+}
+.cbtn{
+	padding: 10px 20px;
+	background: red;
+	border: none;
+	border-radius: 100px;
+
+}
+.cbtn a{
+	color: #fff;
+}
+.cbtn:hover{
+	padding: 10px 30px;
+	background: rgb(4,8,98);
+	transition: 0.5s;
+}
+.chead{
+	font-size: 25px;
+	text-align: center;
+	padding: 20px;
+}
+.cropdata .chead span{
+	color: rgb(220,20,20);
+	font-weight: 200px;
+}
+.cropdata .chead p{
+	font-size: 17px;
+}
+.payingdata .chead span{
+	color: rgb(220,20,20);
+	font-weight: 200px;
+}
+.payingdata .chead p{
+	font-size: 17px;
+
+}
+.chhead span{
+	font-size: 20px;
+	color: #000;
+	padding:  15px 80px;
+}
+.chhead p{
+	padding: 15px 80px;
+	font-size: 16px;
+}
+
+/* Certification section */
+.certi h4{
+	font-size: 25px;
+	text-align: center;
+}
+.certi img{
+	padding: 40px 280px;
+}
+.certi span{
+	color: rgb(235,25,18);
+}
+.hbtn{
+	position: relative;
+	padding: 8px 18px;
+	margin-left: 195vh;
+	background: #126;
+	border: 2px solid #fff;
+}
+.hbtn a{
+	color: #fff;
+}
+.container{
+	position: relative;
+	width: 990px;
+	height: 220px;
+	margin: 15px auto;
+}
+.container .rect{
+	position: relative;
+	width: calc(320px - 35px);
+	height: calc(200px - 30px);
+	background: #000;
+	float: left;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.container .rect .icon{
+	text-align: center;
+}
+.container .rect .icon p{
+	text-align: center;
+	color: #fff;
+}
+.container .rect .icon p i{
+	font-size: 40px;
+	padding: 15px;
+}
+.container .rect .icon p i:hover{
+	background: #000;
+	color: rgb(210,10,10);
+}
+.back{
+	background: #333;
+	position: sticky;
+}
+.back .wrap{
+	max-width: 60%;
+	margin: 20px auto 0;
+	padding: 20px;
+}
+.bar{
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: 16px;
+	position: relative;
+}
+.bar{
+	display: inline-block;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.bar span{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	background: #000;
+	border-radius: 50px;
+}
+.bar span:before{
+	position: absolute;
+	content: "";
+	top: 6px;
+	left: 5px;
+	width: 80%;
+	height: 50%;
+	background: linear-gradient(to left, #ff0057, #ffeb3b);
+	border-radius: 50px;
+	animation: bar 4s ease;
+}
+@keyframes bar{
+	from{
+		width: 0;
+	}
+}
+.bar:nth-child(1) span:before{
+	width: 70%;
+}
+.bar:nth-child(2) span:before{
+	width: 60%;
+}
+.bar:nth-child(3) span:before{
+	width: 40%;
+}
+abbr{
+	width: 50px;
+	display: inline-block;
+	height: 15px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	top: 40px;
+	z-index: 1;
+	background: linear-gradient(to left, #ff0057, #ffeb3b);
+	box-shadow: 0 5px 5px #ff0057, 0 5px 5px #ffeb3b;
+	animation: count 4s ease; 
+}
+@keyframes count{
+	from{
+		left: 0%;
+	}
+}
+.bar:nth-child(1) abbr{
+	left: 70%
+}
+.bar:nth-child(2) abbr{
+	left: 60%
+}
+.bar:nth-child(3) abbr{
+	left: 40%
+}
